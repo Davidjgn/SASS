@@ -1,0 +1,21 @@
+.main {
+  background-color: gray;
+}
+@media (max-width: 800px) {
+  .main {
+    background-color: black;
+  }
+}
+.main_child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_child_p {
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
