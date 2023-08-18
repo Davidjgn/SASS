@@ -1,0 +1,135 @@
+footer {
+  background-color: #e1ebf0;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer .sns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.section {
+  width: 70%;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+}
+.section p {
+  font-weight: bold;
+}
+.section-info {
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 4px black dotted;
+  border-radius: 10px;
+  background-color: white;
+}
+.section-image {
+  height: 230px;
+  width: 230px;
+  margin: 10px auto 150px auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px black dotted;
+}
+.section-image img {
+  height: 200px;
+  width: 220px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  padding: 0;
+  margin: 0;
+}
+.section-pc {
+  display: flex;
+  justify-content: center;
+}
+.section-pc-places {
+  background-color: rgb(250, 118, 250);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 4px black dotted;
+}
+.section-pc-places-photo {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  float: left;
+  border-radius: 5px;
+  border: 4px black dotted;
+}
+.section-pc-places-photo img {
+  height: 300px;
+}
+.section-pc-places-photo .img2 {
+  position: relative;
+  left: -60px;
+}
+.section-pc-places-title {
+  font-size: 30px;
+}
+.section-pc-cuisine {
+  background-color: rgb(255, 199, 43);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 4px black dotted;
+}
+.section-pc-cuisine-photo {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  float: left;
+  border-radius: 5px;
+  border: 4px black dotted;
+}
+.section-pc-cuisine-photo img {
+  height: 300px;
+}
+.section-pc-cuisine-photo .img3 {
+  position: relative;
+  left: -40px;
+}
+.section-pc-cuisine-title {
+  font-size: 30px;
+}
+
+.header {
+  text-align: center;
+  height: 130px;
+  margin-top: 0;
+  background-color: #89D1F0;
+  border-bottom: 4px black dotted;
+}
+.header-logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: #d3aca0;
+  height: 120px;
+  opacity: 80%;
+}
+.header-logo img {
+  height: 120px;
+}
+.header p {
+  padding-top: 35px;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  background-color: rgb(176, 219, 170);
+}/*# sourceMappingURL=main.css.map */

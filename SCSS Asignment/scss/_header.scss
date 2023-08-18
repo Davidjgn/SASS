@@ -1,0 +1,26 @@
+@import'./variables';
+.header{
+    text-align: center;
+    height: 130px;
+    margin-top: 0;
+    background-color: #89D1F0;
+    border-bottom: 4px black dotted;
+    &-logo{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        border-radius: 50%;
+        background-color: #d3aca0;
+        height: 120px;
+        opacity: 80%;
+        img{
+            height: 120px;
+        }
+    }
+    p{
+        padding-top: 35px;
+        font-size: 60px;
+        font-family: $font;
+        color: rgb(0, 0, 0);
+    }
+}

@@ -1,0 +1,95 @@
+@import'./variables';
+.section{
+    width: 70%;
+    margin: 40px auto;
+    font-family: $font;
+    p{
+        font-weight: bold;
+    }
+    &-info{
+        font-size: 20px;
+        margin-bottom: 40px;
+        padding: 20px;
+        border: 4px black dotted;
+        border-radius: 10px;
+        background-color: white;
+    }
+    &-image{
+        height: 230px;
+        width: 230px;
+        margin: 10px auto 150px auto;
+        background-color: white;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 4px black dotted;
+        
+        img{
+            height: 200px;
+            width: 220px;
+            position: relative;
+            top: 15px;
+            left: 5px;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    &-pc{
+        display: flex;
+        justify-content: center;
+     //   .format-div{
+     //       display: flex;
+     //   }
+        &-places{
+            background-color: rgb(250, 118, 250);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 4px black dotted;
+            &-photo{
+                margin: 10px;
+                height: 300px;
+                width: 300px;
+                overflow: hidden;
+                float: left;
+                border-radius: 5px;
+                border: 4px black dotted;
+                img{
+                    height: 300px;
+                }
+                .img2{
+                    position: relative;
+                    left: -60px;
+                }
+            }
+            &-title{
+                font-size: 30px;
+            }
+        }
+        &-cuisine{
+            background-color: rgb(255, 199, 43);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 4px black dotted;
+            &-photo{
+                margin: 10px;
+                height: 300px;
+                width: 300px;
+                overflow: hidden;
+                float: left;
+                border-radius: 5px;
+                border: 4px black dotted;
+                img{
+                    height: 300px;
+                }
+                .img3{
+                    position: relative;
+                    left: -40px;
+                }
+            }
+            &-title{
+                font-size: 30px;
+            }
+        }
+    }
+}
